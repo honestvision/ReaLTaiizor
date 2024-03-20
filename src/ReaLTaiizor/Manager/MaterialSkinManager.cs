@@ -44,46 +44,46 @@ namespace ReaLTaiizor.Manager
             Theme = Themes.LIGHT;
             ColorScheme = new MaterialColorScheme(MaterialPrimary.Indigo500, MaterialPrimary.Indigo700, MaterialPrimary.Indigo100, MaterialAccent.Pink200, MaterialTextShade.WHITE);
 
-            // Create and cache Roboto fonts
+            // Create and cache Noto Sans fonts
             // Thanks https://www.codeproject.com/Articles/42041/How-to-Use-a-Font-Without-Installing-it
             // And https://www.codeproject.com/Articles/107376/Embedding-Font-To-Resources
 
             // Add font to system table in memory and save the font family
-            addFont(Resources.Roboto_Thin);
-            addFont(Resources.Roboto_Light);
-            addFont(Resources.Roboto_Regular);
-            addFont(Resources.Roboto_Medium);
-            addFont(Resources.Roboto_Bold);
-            addFont(Resources.Roboto_Black);
+            addFont(Resources.NotoSansKR_Thin);
+            addFont(Resources.NotoSansKR_Light);
+            addFont(Resources.NotoSansKR_Regular);
+            addFont(Resources.NotoSansKR_Medium);
+            addFont(Resources.NotoSansKR_Bold);
+            addFont(Resources.NotoSansKR_Black);
 
-            RobotoFontFamilies = new Dictionary<string, FontFamily>();
+            NotoSansKRFontFamilies = new Dictionary<string, FontFamily>();
             foreach (FontFamily ff in privateFontCollection.Families.ToArray())
             {
-                RobotoFontFamilies.Add(ff.Name.Replace(' ', '_'), ff);
+                NotoSansKRFontFamilies.Add(ff.Name.Replace(' ', '_'), ff);
             }
 
             // create and save font handles for GDI
             logicalFonts = new Dictionary<string, IntPtr>(18);
-            logicalFonts.Add("H1", createLogicalFont("Roboto Light", 96, MaterialNativeTextRenderer.logFontWeight.FW_LIGHT));
-            logicalFonts.Add("H2", createLogicalFont("Roboto Light", 60, MaterialNativeTextRenderer.logFontWeight.FW_LIGHT));
-            logicalFonts.Add("H3", createLogicalFont("Roboto", 48, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("H4", createLogicalFont("Roboto", 34, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("H5", createLogicalFont("Roboto", 24, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("H6", createLogicalFont("Roboto Medium", 20, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
-            logicalFonts.Add("Subtitle1", createLogicalFont("Roboto", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("Subtitle2", createLogicalFont("Roboto Medium", 14, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
-            logicalFonts.Add("SubtleEmphasis", createLogicalFont("Roboto", 12, MaterialNativeTextRenderer.logFontWeight.FW_NORMAL, 1));
-            logicalFonts.Add("Body1", createLogicalFont("Roboto", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("Body2", createLogicalFont("Roboto", 14, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("Button", createLogicalFont("Roboto Medium", 14, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
-            logicalFonts.Add("Caption", createLogicalFont("Roboto", 12, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("Overline", createLogicalFont("Roboto", 10, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("H1", createLogicalFont("Noto Sans KR Light", 96, MaterialNativeTextRenderer.logFontWeight.FW_LIGHT));
+            logicalFonts.Add("H2", createLogicalFont("Noto Sans KR Light", 60, MaterialNativeTextRenderer.logFontWeight.FW_LIGHT));
+            logicalFonts.Add("H3", createLogicalFont("Noto Sans KR", 48, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("H4", createLogicalFont("Noto Sans KR", 34, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("H5", createLogicalFont("Noto Sans KR", 24, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("H6", createLogicalFont("Noto Sans KR Medium", 20, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
+            logicalFonts.Add("Subtitle1", createLogicalFont("Noto Sans KR", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("Subtitle2", createLogicalFont("Noto Sans KR Medium", 14, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
+            logicalFonts.Add("SubtleEmphasis", createLogicalFont("Noto Sans KR", 12, MaterialNativeTextRenderer.logFontWeight.FW_NORMAL, 1));
+            logicalFonts.Add("Body1", createLogicalFont("Noto Sans KR", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("Body2", createLogicalFont("Noto Sans KR", 14, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("Button", createLogicalFont("Noto Sans KR Medium", 14, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
+            logicalFonts.Add("Caption", createLogicalFont("Noto Sans KR", 12, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("Overline", createLogicalFont("Noto Sans KR", 10, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
             // Logical fonts for textbox animation
-            logicalFonts.Add("textBox16", createLogicalFont("Roboto", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("textBox15", createLogicalFont("Roboto", 15, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("textBox14", createLogicalFont("Roboto", 14, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
-            logicalFonts.Add("textBox13", createLogicalFont("Roboto Medium", 13, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
-            logicalFonts.Add("textBox12", createLogicalFont("Roboto Medium", 12, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
+            logicalFonts.Add("textBox16", createLogicalFont("Noto Sans KR", 16, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("textBox15", createLogicalFont("Noto Sans KR", 15, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("textBox14", createLogicalFont("Noto Sans KR", 14, MaterialNativeTextRenderer.logFontWeight.FW_REGULAR));
+            logicalFonts.Add("textBox13", createLogicalFont("Noto Sans KR Medium", 13, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
+            logicalFonts.Add("textBox12", createLogicalFont("Noto Sans KR Medium", 12, MaterialNativeTextRenderer.logFontWeight.FW_MEDIUM));
         }
 
         // Destructor
@@ -302,21 +302,21 @@ namespace ReaLTaiizor.Manager
         {
             return type switch
             {
-                FontType.H1 => new Font(RobotoFontFamilies["Roboto_Light"], 96f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.H2 => new Font(RobotoFontFamilies["Roboto_Light"], 60f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.H3 => new Font(RobotoFontFamilies["Roboto"], 48f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.H4 => new Font(RobotoFontFamilies["Roboto"], 34f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.H5 => new Font(RobotoFontFamilies["Roboto"], 24f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.H6 => new Font(RobotoFontFamilies["Roboto_Medium"], 20f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.Subtitle1 => new Font(RobotoFontFamilies["Roboto"], 16f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.Subtitle2 => new Font(RobotoFontFamilies["Roboto_Medium"], 14f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.SubtleEmphasis => new Font(RobotoFontFamilies["Roboto"], 12f, FontStyle.Italic, GraphicsUnit.Pixel),
-                FontType.Body1 => new Font(RobotoFontFamilies["Roboto"], 14f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.Body2 => new Font(RobotoFontFamilies["Roboto"], 12f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.Button => new Font(RobotoFontFamilies["Roboto"], 14f, FontStyle.Bold, GraphicsUnit.Pixel),
-                FontType.Caption => new Font(RobotoFontFamilies["Roboto"], 12f, FontStyle.Regular, GraphicsUnit.Pixel),
-                FontType.Overline => new Font(RobotoFontFamilies["Roboto"], 10f, FontStyle.Regular, GraphicsUnit.Pixel),
-                _ => new Font(RobotoFontFamilies["Roboto"], 14f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.H1 => new Font(NotoSansKRFontFamilies["NotoSansKR_Light"], 96f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.H2 => new Font(NotoSansKRFontFamilies["NotoSansKR_Light"], 60f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.H3 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 48f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.H4 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 34f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.H5 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 24f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.H6 => new Font(NotoSansKRFontFamilies["NotoSansKR_Medium"], 20f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.Subtitle1 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 16f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.Subtitle2 => new Font(NotoSansKRFontFamilies["NotoSansKR_Medium"], 14f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.SubtleEmphasis => new Font(NotoSansKRFontFamilies["NotoSansKR"], 12f, FontStyle.Italic, GraphicsUnit.Pixel),
+                FontType.Body1 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 14f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.Body2 => new Font(NotoSansKRFontFamilies["NotoSansKR"], 12f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.Button => new Font(NotoSansKRFontFamilies["NotoSansKR"], 14f, FontStyle.Bold, GraphicsUnit.Pixel),
+                FontType.Caption => new Font(NotoSansKRFontFamilies["NotoSansKR"], 12f, FontStyle.Regular, GraphicsUnit.Pixel),
+                FontType.Overline => new Font(NotoSansKRFontFamilies["NotoSansKR"], 10f, FontStyle.Regular, GraphicsUnit.Pixel),
+                _ => new Font(NotoSansKRFontFamilies["NotoSansKR"], 14f, FontStyle.Regular, GraphicsUnit.Pixel),
             };
         }
 
@@ -334,7 +334,7 @@ namespace ReaLTaiizor.Manager
         // Font stuff
         private Dictionary<string, IntPtr> logicalFonts;
 
-        private Dictionary<string, FontFamily> RobotoFontFamilies;
+        private Dictionary<string, FontFamily> NotoSansKRFontFamilies;
 
         private PrivateFontCollection privateFontCollection = new();
 
