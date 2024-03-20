@@ -142,11 +142,12 @@
             themeForm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             themeForm1.Image = (System.Drawing.Image)resources.GetObject("themeForm1.Image");
             themeForm1.Location = new System.Drawing.Point(0, 0);
+            themeForm1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             themeForm1.Name = "themeForm1";
-            themeForm1.Padding = new System.Windows.Forms.Padding(10, 70, 10, 9);
+            themeForm1.Padding = new System.Windows.Forms.Padding(12, 88, 12, 11);
             themeForm1.RoundCorners = true;
             themeForm1.Sizable = false;
-            themeForm1.Size = new System.Drawing.Size(625, 655);
+            themeForm1.Size = new System.Drawing.Size(781, 819);
             themeForm1.SmartBounds = true;
             themeForm1.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             themeForm1.TabIndex = 0;
@@ -158,7 +159,8 @@
             socialButton2.DownEllipseColor = System.Drawing.Color.FromArgb(153, 34, 34);
             socialButton2.HoverEllipseColor = System.Drawing.Color.FromArgb(32, 34, 37);
             socialButton2.Image = Properties.Resources.Twitter;
-            socialButton2.Location = new System.Drawing.Point(71, 244);
+            socialButton2.Location = new System.Drawing.Point(89, 305);
+            socialButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             socialButton2.Name = "socialButton2";
             socialButton2.NormalEllipseColor = System.Drawing.Color.FromArgb(66, 76, 85);
             socialButton2.Size = new System.Drawing.Size(54, 54);
@@ -183,18 +185,21 @@
             tabPage1.ItemSize = new System.Drawing.Size(44, 135);
             tabPage1.LineColor = System.Drawing.Color.FromArgb(25, 26, 28);
             tabPage1.LineTabColor = System.Drawing.Color.FromArgb(54, 57, 64);
-            tabPage1.Location = new System.Drawing.Point(11, 452);
+            tabPage1.Location = new System.Drawing.Point(14, 565);
+            tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             tabPage1.Multiline = true;
             tabPage1.Name = "tabPage1";
             tabPage1.NormalForeColor = System.Drawing.Color.FromArgb(159, 162, 167);
             tabPage1.PageColor = System.Drawing.Color.FromArgb(50, 63, 74);
+            tabPage1.PixelOffsetType = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;
             tabPage1.SelectedIndex = 0;
-            tabPage1.Size = new System.Drawing.Size(599, 191);
+            tabPage1.Size = new System.Drawing.Size(749, 239);
             tabPage1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             tabPage1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighSpeed;
             tabPage1.StringType = System.Drawing.StringAlignment.Near;
             tabPage1.TabColor = System.Drawing.Color.FromArgb(54, 57, 64);
             tabPage1.TabIndex = 54;
+            tabPage1.TextRenderingType = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             // 
             // tabPage2
             // 
@@ -202,21 +207,23 @@
             tabPage2.Controls.Add(progressIndicator1);
             tabPage2.Controls.Add(circleProgressBar1);
             tabPage2.Location = new System.Drawing.Point(139, 4);
+            tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            tabPage2.Size = new System.Drawing.Size(456, 183);
+            tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            tabPage2.Size = new System.Drawing.Size(606, 231);
             tabPage2.TabIndex = 0;
             tabPage2.Text = "tabPage2";
             // 
             // progressIndicator1
             // 
-            progressIndicator1.Location = new System.Drawing.Point(289, 11);
-            progressIndicator1.MinimumSize = new System.Drawing.Size(80, 80);
+            progressIndicator1.Location = new System.Drawing.Point(361, 14);
+            progressIndicator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            progressIndicator1.MinimumSize = new System.Drawing.Size(100, 100);
             progressIndicator1.Name = "progressIndicator1";
             progressIndicator1.P_AnimationColor = System.Drawing.Color.DimGray;
             progressIndicator1.P_AnimationSpeed = 100;
             progressIndicator1.P_BaseColor = System.Drawing.Color.DarkGray;
-            progressIndicator1.Size = new System.Drawing.Size(161, 161);
+            progressIndicator1.Size = new System.Drawing.Size(201, 201);
             progressIndicator1.TabIndex = 41;
             progressIndicator1.Text = "progressIndicator1";
             // 
@@ -224,15 +231,16 @@
             // 
             circleProgressBar1.BackColor = System.Drawing.Color.FromArgb(50, 63, 74);
             circleProgressBar1.Font = new System.Drawing.Font("Segoe UI", 15F);
-            circleProgressBar1.Location = new System.Drawing.Point(6, 11);
+            circleProgressBar1.Location = new System.Drawing.Point(8, 14);
+            circleProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             circleProgressBar1.Maximum = 100L;
-            circleProgressBar1.MinimumSize = new System.Drawing.Size(100, 100);
+            circleProgressBar1.MinimumSize = new System.Drawing.Size(125, 125);
             circleProgressBar1.Name = "circleProgressBar1";
             circleProgressBar1.PercentColor = System.Drawing.Color.White;
             circleProgressBar1.ProgressColor1 = System.Drawing.Color.FromArgb(92, 92, 92);
             circleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(92, 92, 92);
             circleProgressBar1.ProgressShape = ReaLTaiizor.Controls.CircleProgressBar._ProgressShape.Round;
-            circleProgressBar1.Size = new System.Drawing.Size(161, 161);
+            circleProgressBar1.Size = new System.Drawing.Size(201, 201);
             circleProgressBar1.TabIndex = 1;
             circleProgressBar1.Text = "circleProgressBar1";
             circleProgressBar1.Value = 50L;
@@ -242,9 +250,10 @@
             tabPage3.BackColor = System.Drawing.Color.FromArgb(50, 63, 74);
             tabPage3.Controls.Add(groupBox1);
             tabPage3.Location = new System.Drawing.Point(139, 4);
+            tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            tabPage3.Size = new System.Drawing.Size(456, 183);
+            tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            tabPage3.Size = new System.Drawing.Size(606, 231);
             tabPage3.TabIndex = 1;
             tabPage3.Text = "tabPage3";
             // 
@@ -258,11 +267,12 @@
             groupBox1.Font = new System.Drawing.Font("Tahoma", 9F);
             groupBox1.ForeColor = System.Drawing.Color.FromArgb(250, 250, 250);
             groupBox1.HeaderColor = System.Drawing.Color.FromArgb(55, 66, 77);
-            groupBox1.Location = new System.Drawing.Point(6, 6);
-            groupBox1.MinimumSize = new System.Drawing.Size(136, 50);
+            groupBox1.Location = new System.Drawing.Point(8, 8);
+            groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            groupBox1.MinimumSize = new System.Drawing.Size(170, 62);
             groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new System.Windows.Forms.Padding(5, 28, 5, 5);
-            groupBox1.Size = new System.Drawing.Size(444, 171);
+            groupBox1.Padding = new System.Windows.Forms.Padding(6, 35, 6, 6);
+            groupBox1.Size = new System.Drawing.Size(555, 214);
             groupBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             groupBox1.TabIndex = 1;
             groupBox1.Text = "groupBox1";
@@ -274,10 +284,11 @@
             badge13.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge13.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge13.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge13.Location = new System.Drawing.Point(297, 372);
+            badge13.Location = new System.Drawing.Point(371, 465);
+            badge13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge13.Maximum = 99;
             badge13.Name = "badge13";
-            badge13.Size = new System.Drawing.Size(20, 20);
+            badge13.Size = new System.Drawing.Size(25, 25);
             badge13.TabIndex = 53;
             badge13.Text = "badge13";
             badge13.Value = 99;
@@ -289,10 +300,11 @@
             badge11.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge11.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge11.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge11.Location = new System.Drawing.Point(271, 372);
+            badge11.Location = new System.Drawing.Point(339, 465);
+            badge11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge11.Maximum = 99;
             badge11.Name = "badge11";
-            badge11.Size = new System.Drawing.Size(20, 20);
+            badge11.Size = new System.Drawing.Size(25, 25);
             badge11.TabIndex = 51;
             badge11.Text = "badge11";
             badge11.Value = 33;
@@ -303,9 +315,10 @@
             headerLabel1.BackColor = System.Drawing.Color.Transparent;
             headerLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             headerLabel1.ForeColor = System.Drawing.Color.White;
-            headerLabel1.Location = new System.Drawing.Point(328, 372);
+            headerLabel1.Location = new System.Drawing.Point(410, 465);
+            headerLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             headerLabel1.Name = "headerLabel1";
-            headerLabel1.Size = new System.Drawing.Size(108, 18);
+            headerLabel1.Size = new System.Drawing.Size(138, 24);
             headerLabel1.TabIndex = 50;
             headerLabel1.Text = "headerLabel1";
             // 
@@ -316,10 +329,11 @@
             badge10.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge10.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge10.Location = new System.Drawing.Point(416, 417);
+            badge10.Location = new System.Drawing.Point(520, 521);
+            badge10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge10.Maximum = 99;
             badge10.Name = "badge10";
-            badge10.Size = new System.Drawing.Size(20, 20);
+            badge10.Size = new System.Drawing.Size(25, 25);
             badge10.TabIndex = 49;
             badge10.Text = "badge10";
             badge10.Value = 9;
@@ -331,10 +345,11 @@
             badge9.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge9.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge9.Location = new System.Drawing.Point(390, 417);
+            badge9.Location = new System.Drawing.Point(488, 521);
+            badge9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge9.Maximum = 99;
             badge9.Name = "badge9";
-            badge9.Size = new System.Drawing.Size(20, 20);
+            badge9.Size = new System.Drawing.Size(25, 25);
             badge9.TabIndex = 48;
             badge9.Text = "badge9";
             badge9.Value = 8;
@@ -346,10 +361,11 @@
             badge8.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge8.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge8.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge8.Location = new System.Drawing.Point(366, 417);
+            badge8.Location = new System.Drawing.Point(458, 521);
+            badge8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge8.Maximum = 99;
             badge8.Name = "badge8";
-            badge8.Size = new System.Drawing.Size(20, 20);
+            badge8.Size = new System.Drawing.Size(25, 25);
             badge8.TabIndex = 47;
             badge8.Text = "badge8";
             badge8.Value = 7;
@@ -361,10 +377,11 @@
             badge7.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge7.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge7.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge7.Location = new System.Drawing.Point(340, 417);
+            badge7.Location = new System.Drawing.Point(425, 521);
+            badge7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge7.Maximum = 99;
             badge7.Name = "badge7";
-            badge7.Size = new System.Drawing.Size(20, 20);
+            badge7.Size = new System.Drawing.Size(25, 25);
             badge7.TabIndex = 46;
             badge7.Text = "badge7";
             badge7.Value = 6;
@@ -376,10 +393,11 @@
             badge6.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge6.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge6.Location = new System.Drawing.Point(314, 417);
+            badge6.Location = new System.Drawing.Point(392, 521);
+            badge6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge6.Maximum = 99;
             badge6.Name = "badge6";
-            badge6.Size = new System.Drawing.Size(20, 20);
+            badge6.Size = new System.Drawing.Size(25, 25);
             badge6.TabIndex = 45;
             badge6.Text = "badge6";
             badge6.Value = 5;
@@ -391,10 +409,11 @@
             badge5.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge5.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge5.Location = new System.Drawing.Point(288, 417);
+            badge5.Location = new System.Drawing.Point(360, 521);
+            badge5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge5.Maximum = 99;
             badge5.Name = "badge5";
-            badge5.Size = new System.Drawing.Size(20, 20);
+            badge5.Size = new System.Drawing.Size(25, 25);
             badge5.TabIndex = 44;
             badge5.Text = "badge5";
             badge5.Value = 4;
@@ -406,10 +425,11 @@
             badge4.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge4.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge4.Location = new System.Drawing.Point(262, 417);
+            badge4.Location = new System.Drawing.Point(328, 521);
+            badge4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge4.Maximum = 99;
             badge4.Name = "badge4";
-            badge4.Size = new System.Drawing.Size(20, 20);
+            badge4.Size = new System.Drawing.Size(25, 25);
             badge4.TabIndex = 43;
             badge4.Text = "badge4";
             badge4.Value = 3;
@@ -421,10 +441,11 @@
             badge3.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge3.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge3.Location = new System.Drawing.Point(239, 417);
+            badge3.Location = new System.Drawing.Point(299, 521);
+            badge3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge3.Maximum = 99;
             badge3.Name = "badge3";
-            badge3.Size = new System.Drawing.Size(20, 20);
+            badge3.Size = new System.Drawing.Size(25, 25);
             badge3.TabIndex = 42;
             badge3.Text = "badge3";
             badge3.Value = 2;
@@ -436,10 +457,11 @@
             badge2.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge2.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge2.Location = new System.Drawing.Point(214, 417);
+            badge2.Location = new System.Drawing.Point(268, 521);
+            badge2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge2.Maximum = 99;
             badge2.Name = "badge2";
-            badge2.Size = new System.Drawing.Size(20, 20);
+            badge2.Size = new System.Drawing.Size(25, 25);
             badge2.TabIndex = 41;
             badge2.Text = "badge2";
             badge2.Value = 1;
@@ -451,10 +473,11 @@
             badge1.BorderColor = System.Drawing.Color.FromArgb(205, 70, 66);
             badge1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
             badge1.ForeColor = System.Drawing.Color.FromArgb(255, 255, 253);
-            badge1.Location = new System.Drawing.Point(188, 417);
+            badge1.Location = new System.Drawing.Point(235, 521);
+            badge1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             badge1.Maximum = 99;
             badge1.Name = "badge1";
-            badge1.Size = new System.Drawing.Size(20, 20);
+            badge1.Size = new System.Drawing.Size(25, 25);
             badge1.TabIndex = 1;
             badge1.Text = "badge1";
             badge1.Value = 0;
@@ -466,9 +489,10 @@
             radioButton1.CircleColor = System.Drawing.Color.FromArgb(66, 76, 85);
             radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             radioButton1.ForeColor = System.Drawing.Color.FromArgb(116, 125, 132);
-            radioButton1.Location = new System.Drawing.Point(387, 85);
+            radioButton1.Location = new System.Drawing.Point(484, 106);
+            radioButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new System.Drawing.Size(95, 17);
+            radioButton1.Size = new System.Drawing.Size(119, 17);
             radioButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             radioButton1.TabIndex = 39;
             radioButton1.Text = "radioButton1";
@@ -480,9 +504,10 @@
             radioButton2.CircleColor = System.Drawing.Color.FromArgb(66, 76, 85);
             radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             radioButton2.ForeColor = System.Drawing.Color.FromArgb(116, 125, 132);
-            radioButton2.Location = new System.Drawing.Point(488, 85);
+            radioButton2.Location = new System.Drawing.Point(610, 106);
+            radioButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new System.Drawing.Size(95, 17);
+            radioButton2.Size = new System.Drawing.Size(119, 17);
             radioButton2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             radioButton2.TabIndex = 38;
             radioButton2.Text = "radioButton2";
@@ -501,9 +526,10 @@
             comboBoxEdit2.IntegralHeight = false;
             comboBoxEdit2.ItemHeight = 20;
             comboBoxEdit2.Items.AddRange(new object[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" });
-            comboBoxEdit2.Location = new System.Drawing.Point(182, 368);
+            comboBoxEdit2.Location = new System.Drawing.Point(228, 460);
+            comboBoxEdit2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             comboBoxEdit2.Name = "comboBoxEdit2";
-            comboBoxEdit2.Size = new System.Drawing.Size(76, 26);
+            comboBoxEdit2.Size = new System.Drawing.Size(94, 26);
             comboBoxEdit2.StartIndex = 0;
             comboBoxEdit2.TabIndex = 37;
             // 
@@ -517,13 +543,14 @@
             chatButtonRight1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             chatButtonRight1.InactiveColorA = System.Drawing.Color.FromArgb(0, 176, 231);
             chatButtonRight1.InactiveColorB = System.Drawing.Color.FromArgb(0, 152, 224);
-            chatButtonRight1.Location = new System.Drawing.Point(445, 408);
+            chatButtonRight1.Location = new System.Drawing.Point(556, 510);
+            chatButtonRight1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             chatButtonRight1.Name = "chatButtonRight1";
             chatButtonRight1.PressedColorA = System.Drawing.Color.FromArgb(0, 118, 176);
             chatButtonRight1.PressedColorB = System.Drawing.Color.FromArgb(0, 149, 222);
             chatButtonRight1.PressedContourColorA = System.Drawing.Color.FromArgb(0, 118, 176);
             chatButtonRight1.PressedContourColorB = System.Drawing.Color.FromArgb(0, 118, 176);
-            chatButtonRight1.Size = new System.Drawing.Size(165, 38);
+            chatButtonRight1.Size = new System.Drawing.Size(206, 48);
             chatButtonRight1.TabIndex = 35;
             chatButtonRight1.Text = "chatButtonRight1";
             chatButtonRight1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -537,13 +564,14 @@
             chatButtonLeft1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             chatButtonLeft1.InactiveColorA = System.Drawing.Color.FromArgb(251, 251, 251);
             chatButtonLeft1.InactiveColorB = System.Drawing.Color.FromArgb(225, 225, 225);
-            chatButtonLeft1.Location = new System.Drawing.Point(11, 408);
+            chatButtonLeft1.Location = new System.Drawing.Point(14, 510);
+            chatButtonLeft1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             chatButtonLeft1.Name = "chatButtonLeft1";
             chatButtonLeft1.PressedColorA = System.Drawing.Color.FromArgb(235, 235, 235);
             chatButtonLeft1.PressedColorB = System.Drawing.Color.FromArgb(223, 223, 223);
             chatButtonLeft1.PressedContourColorA = System.Drawing.Color.FromArgb(167, 167, 167);
             chatButtonLeft1.PressedContourColorB = System.Drawing.Color.FromArgb(167, 167, 167);
-            chatButtonLeft1.Size = new System.Drawing.Size(165, 38);
+            chatButtonLeft1.Size = new System.Drawing.Size(206, 48);
             chatButtonLeft1.TabIndex = 1;
             chatButtonLeft1.Text = "chatButtonLeft1";
             chatButtonLeft1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -554,12 +582,13 @@
             trackBarEdit1.DrawHatch = true;
             trackBarEdit1.DrawValueString = false;
             trackBarEdit1.JumpToMouse = true;
-            trackBarEdit1.Location = new System.Drawing.Point(314, 320);
+            trackBarEdit1.Location = new System.Drawing.Point(392, 400);
+            trackBarEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             trackBarEdit1.Maximum = 100;
             trackBarEdit1.Minimum = 0;
-            trackBarEdit1.MinimumSize = new System.Drawing.Size(37, 22);
+            trackBarEdit1.MinimumSize = new System.Drawing.Size(46, 28);
             trackBarEdit1.Name = "trackBarEdit1";
-            trackBarEdit1.Size = new System.Drawing.Size(296, 22);
+            trackBarEdit1.Size = new System.Drawing.Size(370, 28);
             trackBarEdit1.TabIndex = 29;
             trackBarEdit1.Text = "trackBarEdit1";
             trackBarEdit1.Value = 50;
@@ -573,9 +602,10 @@
             chatBubbleRight1.BubbleColor = System.Drawing.Color.FromArgb(192, 206, 215);
             chatBubbleRight1.DrawBubbleArrow = true;
             chatBubbleRight1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            chatBubbleRight1.Location = new System.Drawing.Point(445, 364);
+            chatBubbleRight1.Location = new System.Drawing.Point(556, 455);
+            chatBubbleRight1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             chatBubbleRight1.Name = "chatBubbleRight1";
-            chatBubbleRight1.Size = new System.Drawing.Size(165, 34);
+            chatBubbleRight1.Size = new System.Drawing.Size(206, 42);
             chatBubbleRight1.SizeAuto = false;
             chatBubbleRight1.SizeAutoH = true;
             chatBubbleRight1.SizeAutoW = true;
@@ -589,9 +619,10 @@
             chatBubbleLeft1.BubbleColor = System.Drawing.Color.FromArgb(217, 217, 217);
             chatBubbleLeft1.DrawBubbleArrow = true;
             chatBubbleLeft1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            chatBubbleLeft1.Location = new System.Drawing.Point(11, 364);
+            chatBubbleLeft1.Location = new System.Drawing.Point(14, 455);
+            chatBubbleLeft1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             chatBubbleLeft1.Name = "chatBubbleLeft1";
-            chatBubbleLeft1.Size = new System.Drawing.Size(165, 34);
+            chatBubbleLeft1.Size = new System.Drawing.Size(206, 42);
             chatBubbleLeft1.SizeAuto = false;
             chatBubbleLeft1.SizeAutoH = true;
             chatBubbleLeft1.SizeAutoW = true;
@@ -603,9 +634,10 @@
             separator4.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             separator4.ForeColor = System.Drawing.Color.White;
             separator4.LineColor = System.Drawing.SystemColors.HighlightText;
-            separator4.Location = new System.Drawing.Point(0, 348);
+            separator4.Location = new System.Drawing.Point(0, 435);
+            separator4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             separator4.Name = "separator4";
-            separator4.Size = new System.Drawing.Size(625, 10);
+            separator4.Size = new System.Drawing.Size(781, 12);
             separator4.TabIndex = 25;
             separator4.Text = "separator4";
             // 
@@ -619,8 +651,9 @@
             notificationBox8.ErrorTitleText = "ERROR";
             notificationBox8.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox8.Image = null;
-            notificationBox8.Location = new System.Drawing.Point(465, 182);
-            notificationBox8.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox8.Location = new System.Drawing.Point(581, 228);
+            notificationBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox8.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox8.Name = "notificationBox8";
             notificationBox8.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox8.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -629,7 +662,7 @@
             notificationBox8.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Notice;
             notificationBox8.RoundCorners = true;
             notificationBox8.ShowCloseButton = false;
-            notificationBox8.Size = new System.Drawing.Size(145, 40);
+            notificationBox8.Size = new System.Drawing.Size(181, 50);
             notificationBox8.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox8.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox8.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -653,8 +686,9 @@
             notificationBox7.ErrorTitleText = "ERROR";
             notificationBox7.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox7.Image = null;
-            notificationBox7.Location = new System.Drawing.Point(314, 182);
-            notificationBox7.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox7.Location = new System.Drawing.Point(392, 228);
+            notificationBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox7.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox7.Name = "notificationBox7";
             notificationBox7.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox7.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -663,7 +697,7 @@
             notificationBox7.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Warning;
             notificationBox7.RoundCorners = true;
             notificationBox7.ShowCloseButton = true;
-            notificationBox7.Size = new System.Drawing.Size(145, 40);
+            notificationBox7.Size = new System.Drawing.Size(181, 50);
             notificationBox7.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox7.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox7.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -687,8 +721,9 @@
             notificationBox6.ErrorTitleText = "ERROR";
             notificationBox6.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox6.Image = null;
-            notificationBox6.Location = new System.Drawing.Point(163, 182);
-            notificationBox6.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox6.Location = new System.Drawing.Point(204, 228);
+            notificationBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox6.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox6.Name = "notificationBox6";
             notificationBox6.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox6.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -697,7 +732,7 @@
             notificationBox6.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Error;
             notificationBox6.RoundCorners = true;
             notificationBox6.ShowCloseButton = false;
-            notificationBox6.Size = new System.Drawing.Size(145, 40);
+            notificationBox6.Size = new System.Drawing.Size(181, 50);
             notificationBox6.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox6.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox6.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -721,8 +756,9 @@
             notificationBox5.ErrorTitleText = "ERROR";
             notificationBox5.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox5.Image = null;
-            notificationBox5.Location = new System.Drawing.Point(11, 182);
-            notificationBox5.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox5.Location = new System.Drawing.Point(14, 228);
+            notificationBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox5.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox5.Name = "notificationBox5";
             notificationBox5.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox5.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -731,7 +767,7 @@
             notificationBox5.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Success;
             notificationBox5.RoundCorners = true;
             notificationBox5.ShowCloseButton = true;
-            notificationBox5.Size = new System.Drawing.Size(145, 40);
+            notificationBox5.Size = new System.Drawing.Size(181, 50);
             notificationBox5.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox5.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox5.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -750,9 +786,10 @@
             separator3.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             separator3.ForeColor = System.Drawing.Color.White;
             separator3.LineColor = System.Drawing.SystemColors.HighlightText;
-            separator3.Location = new System.Drawing.Point(0, 304);
+            separator3.Location = new System.Drawing.Point(0, 380);
+            separator3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             separator3.Name = "separator3";
-            separator3.Size = new System.Drawing.Size(625, 10);
+            separator3.Size = new System.Drawing.Size(781, 12);
             separator3.TabIndex = 19;
             separator3.Text = "separator3";
             // 
@@ -761,9 +798,10 @@
             separator2.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             separator2.ForeColor = System.Drawing.Color.White;
             separator2.LineColor = System.Drawing.SystemColors.HighlightText;
-            separator2.Location = new System.Drawing.Point(0, 228);
+            separator2.Location = new System.Drawing.Point(0, 285);
+            separator2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             separator2.Name = "separator2";
-            separator2.Size = new System.Drawing.Size(625, 10);
+            separator2.Size = new System.Drawing.Size(781, 12);
             separator2.TabIndex = 18;
             separator2.Text = "separator2";
             // 
@@ -772,12 +810,13 @@
             trackBar1.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             trackBar1.Cursor = System.Windows.Forms.Cursors.Hand;
             trackBar1.JumpToMouse = true;
-            trackBar1.Location = new System.Drawing.Point(11, 320);
+            trackBar1.Location = new System.Drawing.Point(14, 400);
+            trackBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             trackBar1.Maximum = 100;
             trackBar1.Minimum = 0;
-            trackBar1.MinimumSize = new System.Drawing.Size(47, 22);
+            trackBar1.MinimumSize = new System.Drawing.Size(59, 28);
             trackBar1.Name = "trackBar1";
-            trackBar1.Size = new System.Drawing.Size(297, 22);
+            trackBar1.Size = new System.Drawing.Size(371, 28);
             trackBar1.TabIndex = 17;
             trackBar1.Text = "trackBar1";
             trackBar1.Value = 0;
@@ -787,7 +826,8 @@
             // toggleButton4
             // 
             toggleButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            toggleButton4.Location = new System.Drawing.Point(534, 255);
+            toggleButton4.Location = new System.Drawing.Point(668, 319);
+            toggleButton4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             toggleButton4.Name = "toggleButton4";
             toggleButton4.Size = new System.Drawing.Size(76, 33);
             toggleButton4.TabIndex = 16;
@@ -798,7 +838,8 @@
             // toggleButton3
             // 
             toggleButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            toggleButton3.Location = new System.Drawing.Point(452, 255);
+            toggleButton3.Location = new System.Drawing.Point(565, 319);
+            toggleButton3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             toggleButton3.Name = "toggleButton3";
             toggleButton3.Size = new System.Drawing.Size(76, 33);
             toggleButton3.TabIndex = 15;
@@ -809,7 +850,8 @@
             // toggleButton2
             // 
             toggleButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            toggleButton2.Location = new System.Drawing.Point(366, 255);
+            toggleButton2.Location = new System.Drawing.Point(458, 319);
+            toggleButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             toggleButton2.Name = "toggleButton2";
             toggleButton2.Size = new System.Drawing.Size(76, 33);
             toggleButton2.TabIndex = 14;
@@ -821,7 +863,8 @@
             // 
             toggleButton1.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             toggleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            toggleButton1.Location = new System.Drawing.Point(284, 255);
+            toggleButton1.Location = new System.Drawing.Point(355, 319);
+            toggleButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             toggleButton1.Name = "toggleButton1";
             toggleButton1.Size = new System.Drawing.Size(76, 33);
             toggleButton1.TabIndex = 13;
@@ -835,12 +878,13 @@
             textBoxEdit1.Font = new System.Drawing.Font("Tahoma", 11F);
             textBoxEdit1.ForeColor = System.Drawing.Color.FromArgb(176, 183, 191);
             textBoxEdit1.Image = Properties.Resources.Google;
-            textBoxEdit1.Location = new System.Drawing.Point(131, 250);
+            textBoxEdit1.Location = new System.Drawing.Point(164, 312);
+            textBoxEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             textBoxEdit1.MaxLength = 32767;
             textBoxEdit1.Multiline = false;
             textBoxEdit1.Name = "textBoxEdit1";
             textBoxEdit1.ReadOnly = false;
-            textBoxEdit1.Size = new System.Drawing.Size(144, 41);
+            textBoxEdit1.Size = new System.Drawing.Size(180, 46);
             textBoxEdit1.TabIndex = 12;
             textBoxEdit1.Text = "textBoxEdit1";
             textBoxEdit1.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -852,7 +896,8 @@
             socialButton1.DownEllipseColor = System.Drawing.Color.FromArgb(153, 34, 34);
             socialButton1.HoverEllipseColor = System.Drawing.Color.FromArgb(32, 34, 37);
             socialButton1.Image = Properties.Resources.Google;
-            socialButton1.Location = new System.Drawing.Point(11, 244);
+            socialButton1.Location = new System.Drawing.Point(14, 305);
+            socialButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             socialButton1.Name = "socialButton1";
             socialButton1.NormalEllipseColor = System.Drawing.Color.FromArgb(66, 76, 85);
             socialButton1.Size = new System.Drawing.Size(54, 54);
@@ -865,9 +910,10 @@
             separator1.BackColor = System.Drawing.Color.FromArgb(32, 41, 50);
             separator1.ForeColor = System.Drawing.Color.White;
             separator1.LineColor = System.Drawing.SystemColors.HighlightText;
-            separator1.Location = new System.Drawing.Point(0, 120);
+            separator1.Location = new System.Drawing.Point(0, 150);
+            separator1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             separator1.Name = "separator1";
-            separator1.Size = new System.Drawing.Size(625, 10);
+            separator1.Size = new System.Drawing.Size(781, 12);
             separator1.TabIndex = 10;
             separator1.Text = "separator1";
             // 
@@ -881,8 +927,9 @@
             notificationBox4.ErrorTitleText = "ERROR";
             notificationBox4.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox4.Image = null;
-            notificationBox4.Location = new System.Drawing.Point(465, 136);
-            notificationBox4.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox4.Location = new System.Drawing.Point(581, 170);
+            notificationBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox4.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox4.Name = "notificationBox4";
             notificationBox4.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox4.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -891,7 +938,7 @@
             notificationBox4.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Success;
             notificationBox4.RoundCorners = false;
             notificationBox4.ShowCloseButton = true;
-            notificationBox4.Size = new System.Drawing.Size(145, 40);
+            notificationBox4.Size = new System.Drawing.Size(181, 50);
             notificationBox4.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox4.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox4.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -915,8 +962,9 @@
             notificationBox3.ErrorTitleText = "ERROR";
             notificationBox3.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox3.Image = null;
-            notificationBox3.Location = new System.Drawing.Point(314, 136);
-            notificationBox3.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox3.Location = new System.Drawing.Point(392, 170);
+            notificationBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox3.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox3.Name = "notificationBox3";
             notificationBox3.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox3.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -925,7 +973,7 @@
             notificationBox3.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Error;
             notificationBox3.RoundCorners = false;
             notificationBox3.ShowCloseButton = false;
-            notificationBox3.Size = new System.Drawing.Size(145, 40);
+            notificationBox3.Size = new System.Drawing.Size(181, 50);
             notificationBox3.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox3.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox3.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -949,8 +997,9 @@
             notificationBox2.ErrorTitleText = "ERROR";
             notificationBox2.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox2.Image = null;
-            notificationBox2.Location = new System.Drawing.Point(163, 136);
-            notificationBox2.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox2.Location = new System.Drawing.Point(204, 170);
+            notificationBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox2.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox2.Name = "notificationBox2";
             notificationBox2.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox2.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -959,7 +1008,7 @@
             notificationBox2.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Warning;
             notificationBox2.RoundCorners = false;
             notificationBox2.ShowCloseButton = true;
-            notificationBox2.Size = new System.Drawing.Size(145, 40);
+            notificationBox2.Size = new System.Drawing.Size(181, 50);
             notificationBox2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox2.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox2.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -983,8 +1032,9 @@
             notificationBox1.ErrorTitleText = "ERROR";
             notificationBox1.Font = new System.Drawing.Font("Tahoma", 9F);
             notificationBox1.Image = null;
-            notificationBox1.Location = new System.Drawing.Point(12, 136);
-            notificationBox1.MinimumSize = new System.Drawing.Size(100, 40);
+            notificationBox1.Location = new System.Drawing.Point(15, 170);
+            notificationBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            notificationBox1.MinimumSize = new System.Drawing.Size(125, 50);
             notificationBox1.Name = "notificationBox1";
             notificationBox1.NoticeBackColor = System.Drawing.Color.Gray;
             notificationBox1.NoticeBorderColor = System.Drawing.Color.Gray;
@@ -993,7 +1043,7 @@
             notificationBox1.NotificationType = ReaLTaiizor.Controls.NotificationBox.Type.Notice;
             notificationBox1.RoundCorners = false;
             notificationBox1.ShowCloseButton = false;
-            notificationBox1.Size = new System.Drawing.Size(145, 40);
+            notificationBox1.Size = new System.Drawing.Size(181, 50);
             notificationBox1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             notificationBox1.SuccessBackColor = System.Drawing.Color.SeaGreen;
             notificationBox1.SuccessBorderColor = System.Drawing.Color.SeaGreen;
@@ -1016,9 +1066,10 @@
             linkEdit1.ForeColor = System.Drawing.SystemColors.Control;
             linkEdit1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             linkEdit1.LinkColor = System.Drawing.Color.Gray;
-            linkEdit1.Location = new System.Drawing.Point(327, 85);
+            linkEdit1.Location = new System.Drawing.Point(409, 106);
+            linkEdit1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             linkEdit1.Name = "linkEdit1";
-            linkEdit1.Size = new System.Drawing.Size(54, 15);
+            linkEdit1.Size = new System.Drawing.Size(63, 18);
             linkEdit1.TabIndex = 4;
             linkEdit1.TabStop = true;
             linkEdit1.Text = "linkEdit1";
@@ -1030,9 +1081,10 @@
             labelEdit1.BackColor = System.Drawing.Color.Transparent;
             labelEdit1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             labelEdit1.ForeColor = System.Drawing.Color.FromArgb(116, 125, 132);
-            labelEdit1.Location = new System.Drawing.Point(259, 85);
+            labelEdit1.Location = new System.Drawing.Point(324, 106);
+            labelEdit1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             labelEdit1.Name = "labelEdit1";
-            labelEdit1.Size = new System.Drawing.Size(62, 15);
+            labelEdit1.Size = new System.Drawing.Size(71, 18);
             labelEdit1.TabIndex = 3;
             labelEdit1.Text = "labelEdit1";
             // 
@@ -1048,25 +1100,30 @@
             checkBox1.Enable = true;
             checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             checkBox1.ForeColor = System.Drawing.Color.FromArgb(116, 125, 132);
-            checkBox1.Location = new System.Drawing.Point(164, 85);
+            checkBox1.Location = new System.Drawing.Point(205, 106);
+            checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new System.Drawing.Size(89, 16);
+            checkBox1.Size = new System.Drawing.Size(111, 16);
             checkBox1.TabIndex = 2;
             checkBox1.Text = "checkBox1";
             // 
             // button1
             // 
             button1.BackColor = System.Drawing.Color.Transparent;
+            button1.BorderColor = System.Drawing.Color.FromArgb(32, 34, 37);
             button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            button1.EnteredBorderColor = System.Drawing.Color.FromArgb(165, 37, 37);
             button1.EnteredColor = System.Drawing.Color.FromArgb(32, 34, 37);
             button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             button1.Image = null;
             button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             button1.InactiveColor = System.Drawing.Color.FromArgb(32, 34, 37);
-            button1.Location = new System.Drawing.Point(11, 73);
+            button1.Location = new System.Drawing.Point(14, 91);
+            button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             button1.Name = "button1";
+            button1.PressedBorderColor = System.Drawing.Color.FromArgb(165, 37, 37);
             button1.PressedColor = System.Drawing.Color.FromArgb(165, 37, 37);
-            button1.Size = new System.Drawing.Size(146, 41);
+            button1.Size = new System.Drawing.Size(182, 51);
             button1.TabIndex = 1;
             button1.Text = "button1";
             button1.TextAlignment = System.Drawing.StringAlignment.Center;
@@ -1082,7 +1139,8 @@
             controlBox1.EnableMaximizeButton = false;
             controlBox1.EnableMinimizeButton = true;
             controlBox1.ForeColor = System.Drawing.Color.FromArgb(155, 155, 155);
-            controlBox1.Location = new System.Drawing.Point(525, 18);
+            controlBox1.Location = new System.Drawing.Point(656, 22);
+            controlBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             controlBox1.MaximizeHoverColor = System.Drawing.Color.FromArgb(74, 74, 74);
             controlBox1.MinimizeHoverColor = System.Drawing.Color.FromArgb(63, 63, 65);
             controlBox1.Name = "controlBox1";
@@ -1092,14 +1150,15 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            ClientSize = new System.Drawing.Size(625, 655);
+            ClientSize = new System.Drawing.Size(781, 819);
             Controls.Add(themeForm1);
             DoubleBuffered = true;
             FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-            MinimumSize = new System.Drawing.Size(261, 61);
+            Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            MinimumSize = new System.Drawing.Size(326, 76);
             Name = "Form1";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             Text = "themeForm1";
